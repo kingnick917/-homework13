@@ -1,14 +1,33 @@
-# Title (replace with your title)
-
-Introductory paragraph (replace this with your text)
+# getting to know Regex
+What is Regex? is a sequence of characters that defines a specific search pattern.When included in code or search algorithms Such as /^#?([a-f0-9]{6}|[a-f0-9]{3})$/
+/^(a-z0-9_\.-]+)@[\da-z\.-]+)\.([a-z\.]{2,6})$/.They are also frequently used to validate input.
 
 ## Summary
-
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+this is Hex Value
+/ = start of regex
+^ = begining of string 
+# = i don't know 
+? = Question Mark
+( = associated regex
+    [ = set of characters
+    a-f = letter
+    0-9 = digit
+    ]
+    {6} =Curly Braces	
+    | = Logical OR operator or Pipe
+    [= set of characters
+    a-f= letter
+    0-9= digit
+    ]
+    {3}=Curly Braces	
+    )
+    $= end of string
+    /=end of regex
+ 
 
 ## Table of Contents
 
-- [Anchors](#anchors)
+- [Anchors](#anchorss)
 - [Quantifiers](#quantifiers)
 - [Grouping Constructs](#grouping-constructs)
 - [Bracket Expressions](#bracket-expressions)
@@ -19,22 +38,25 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ## Regex Components
 
-### Anchors
+### Anchors : family of regex but don't match any characters. but that assert something about the string or the matching process
 
-### Quantifiers
+### Quantifiers :matches the preceding element zero or more time but times less as possible
 
-### Grouping Constructs
+### Grouping Constructs :delineate the subexpressions of a regular expression and capture the substrings of an input string.
 
-### Bracket Expressions
+### Bracket Expressions :Brackets indicate a set of characters
 
-### Character Classes
+### Character Classes : set of characters enclosed within square brackets.
 
-### The OR Operator
+### The OR Operator :recognizes range expressions inside a list
 
-### Flags
+### Flags :A flag is denoted using a single lowercase alphabetic character
 
-### Character Escapes
+### Character Escapes :The \ is known as the escape code, which restore the original literal meaning of the following character  * , + , ?
 
 ## Author
+https://github.com/kingnick917
+I am a student going through a coding boot camp that recognize through UC Davis
+I am currently 5 weeks away from the end of the boot camp 
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+
