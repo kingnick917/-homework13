@@ -27,8 +27,8 @@ this is Hex Value
 
 ## Table of Contents
 
-- [Anchors](#anchorss)
-- [Quantifiers](#quantifiers)
+- [Anchors](#Anchors)
+- [Quantifiers](#Quantifiers)
 - [Grouping Constructs](#grouping-constructs)
 - [Bracket Expressions](#bracket-expressions)
 - [Character Classes](#character-classes)
@@ -38,7 +38,7 @@ this is Hex Value
 
 ## Regex Components
 
-### Anchors : family of regex but don't match any characters. but that assert something about the string or the matching process
+# Anchors : family of regex but don't match any characters. but that assert something about the string or the matching process
 
 ### Quantifiers :matches the preceding element zero or more time but times less as possible
 
